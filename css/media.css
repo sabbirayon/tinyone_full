@@ -1,0 +1,219 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header start */
+    .main-menu ul li a{
+        font-size: 20px;
+        text-align: right;
+        margin: 5px 0;
+    }
+    /* header end */
+    /* slider */
+    .slider-section{
+        padding-bottom: 60px;
+    }
+    .slider-content{
+        text-align: center;
+        padding-right: 0;
+    }
+    .slider-ind-custom {
+        right: 0;
+        bottom: -11%;
+        left: 0;
+    }
+    /* slider */
+    /* feature start */
+    .feature{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .section-title{
+        padding: 0;
+    }
+    .section-h1{
+        font-size: 30px;
+    }
+    .section-p{
+        font-size: 17px;
+    }
+    .single-feature{
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+    .feature-icon i{
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    .feature-content{
+        padding-right: 0;
+        text-align: center !important;
+    }
+    /* feature end */
+    /* contact form */
+    .contact{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .contact-form {
+        margin-top: 30px;
+        padding: 0;
+    } 
+    .contact-form input{
+        margin-bottom: 10px;
+        height: 40px;
+    }
+    .contact-form .submit-btn{
+        height: 40px;
+    }
+    /* contact end */  
+    /* footer start */
+    footer{
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    footer address{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    /* footer end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start */
+    .main-menu ul li a{
+        margin: 0;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* header end */
+    /* slider */
+    .slider-content{
+        text-align: center;
+        padding-right: 0;
+    }
+    .slider-ind-custom {
+        right: 0;
+        bottom: -11%;
+        left: 0;
+    }
+    /* slider */
+    /* feature start */
+       .section-title{
+        padding: 0;
+    }
+    .single-feature{
+        margin-top: 30px;
+    }
+    .feature-icon i{
+        margin-bottom: 10px;
+        font-size: 40px;
+    
+    }
+    .feature-content{
+        padding-right: 0;
+        text-align: center !important;
+    }
+    /* feature end */
+    /* section title */
+    .section-title{
+        margin-top: 40px;
+        padding: 0;
+    }
+    /* contact form */
+    .contact{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .contact-form {
+        margin-top: 35px;
+        padding: 0;
+    } 
+    .contact-form input{
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .contact-form .submit-btn{
+        height: 40px;
+    }
+    /* contact end */  
+    /* footer start */
+    footer{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    footer address{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    /* footer end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .main-menu ul li a{
+        text-align: right;
+        margin: 0;
+    }
+    .slider-ind-custom {
+        right: 0;
+        bottom: -11%;
+        left: 0;
+    }
+    /* header end */
+    /* feature start */
+    .section-title{
+        padding: 0;
+    }
+    .single-feature{
+        margin-top: 40px;
+    }
+    /* feature end */
+    /* section title */
+    .section-title{
+        margin-top: 40px;
+        padding: 0;
+    }
+    /* contact form */
+    .contact{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .contact-form {
+        margin-top: 40px;
+        padding: 0;
+    }
+    /* footer start */
+    footer{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    /* footer end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slider-content{
+        padding-right: 10px;
+    }
+    /* section title */
+    .section-title{
+        margin-top: 40px;
+        padding: 0;
+    }
+    /* contact form */
+    .contact{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .contact-form {
+        margin-top: 45px;
+        padding: 0;
+    }
+}
+
+ /* X-Large devices (xl desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* XX-large devices (xxl desktops, 1400px and up) */
+@media (min-width: 1400px) {}
